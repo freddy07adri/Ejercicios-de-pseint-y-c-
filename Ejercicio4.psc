@@ -1,0 +1,17 @@
+Algoritmo PromedioSeccion
+	Definir notas Como Real
+	Definir suma, promedio Como Real
+	
+	suma <- 0
+	
+	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese la nota del estudiante ", i, ":"
+		Leer notas
+		suma <- suma + notas
+	FinPara
+	
+	promedio <- suma / 10
+	
+	Escribir "El promedio general de la sección es: ", promedio
+	
+FinAlgoritmo
